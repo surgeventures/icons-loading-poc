@@ -383,7 +383,7 @@ module.exports = function (webpackEnv) {
                   loader: require.resolve('svg-sprite-loader'),
                   options: {
                     extract: true,
-                    publicPath: process.env.PUBLIC_URL
+                    publicPath: ''
                   }
                 },
               ],
